@@ -41,6 +41,7 @@ struct ContentView: View {
                                                                       try fetchImage3,
                                                                       try fetchImage4)
                         
+                        self.images.append(contentsOf: [image1, image2, image3, image4])
                         
 //                        let image1 = try await fetchIMage()
 //                        self.images.append(image1)
